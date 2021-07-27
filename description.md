@@ -8,4 +8,4 @@ For concurrent execution use --workers and --threads options
 
 For example:  
 "uwsgi --workers <workers> --threads <threads> --socket <ip_address>:<port> --protocol=http",
-  where <ip_address> is the ip address of the server, <port> is the port to which signals will be sent, <workers> is the number of processes, I recommend putting the same number of cores on the server, <threads> is the number of threads, similarly.
+  where "ip_address" is the ip address of the server, "port" is the port to which signals will be sent, "workers" is the number of processes, "threads" is the number of threads, similarly.
